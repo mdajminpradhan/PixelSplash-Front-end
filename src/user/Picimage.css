@@ -1,0 +1,22 @@
+.pxiamges {
+	padding: 1rem 0;
+}
+
+.pxiamges .container .pxiamges__image {
+	height: 300px;
+	overflow: hidden;
+}
+
+.pxiamges .container .pxiamges__image img {
+	height: 100%;
+	width: 100%;
+	border-radius: 3px;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+	object-fit: cover;
+	transition: all .5s;
+	cursor: pointer;
+}
+
+.pxiamges__image img:hover {
+	transform: scale(1.1);
+}

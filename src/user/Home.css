@@ -1,0 +1,51 @@
+.pictureCategories ul {
+	display: flex;
+	margin: 0 !important;
+	padding: .5rem 1rem !important;
+	overflow: hidden;
+	overflow-x: scroll;
+}
+
+.pictureCategories ul li {
+	list-style: none;
+	margin: 0 1rem;
+}
+
+.pictureCategories ul li a {
+	text-decoration: none;
+	color: rgba(33, 43, 73, 0.8);
+}
+
+.herosection {
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+		url('../assets/henrique-ferreira-a42M7a6T1jw-unsplash.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.herosection .herosection__content {
+	color: white;
+	width: 40%;
+}
+
+.herosection .herosection__content h2 {
+	font-family: 'Noto Sans', sans-serif;
+	/* width: 70%; */
+}
+
+.herosection .herosection__image {
+	width: 100vw;
+	height: 500px;
+}
+
+.herosection .herosection__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	filter: brightness(70%);
+}

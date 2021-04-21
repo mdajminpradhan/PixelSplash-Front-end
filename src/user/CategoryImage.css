@@ -1,0 +1,7 @@
+.picimages__container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	width: 80%;
+	margin: auto;
+	padding: 2rem 0;
+}
