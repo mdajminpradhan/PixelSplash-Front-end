@@ -31,5 +31,8 @@ code {
 }
 
 .pictureCategories {
-  background: white;
+	background: white;
+	overflow-x: scroll;
+	overflow-y: hidden;
+  scrollbar-width: none;
 }

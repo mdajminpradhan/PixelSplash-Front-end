@@ -4,6 +4,7 @@
 	padding: .5rem 1rem !important;
 	overflow: hidden;
 	overflow-x: scroll;
+	scrollbar-width: none;
 }
 
 .pictureCategories ul li {
@@ -48,4 +49,65 @@
 	height: 100%;
 	object-fit: cover;
 	filter: brightness(70%);
+}
+
+@media (min-width: 320px) {
+	.herosection {
+		height: 300px;
+	}
+
+	.herosection .herosection__content {
+		color: white;
+		width: 80%;
+	}
+
+	.herosection .herosection__content h5 {
+		font-size: .9rem !important;
+	}
+
+	.herosection .herosection__content h1 {
+		font-size: 1.3rem !important;
+	}
+	.herosection .herosection__content h3 {
+		font-size: .95rem !important;
+	}
+
+	.pictureCategories ul {
+		width: 600px;
+	}
+
+	.pictureCategories ul li {
+		margin: .5rem !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.pictureCategories ul {
+		width: unset;
+	}
+
+	.pictureCategories ul li {
+		margin: 1rem !important;
+	}
+}
+
+@media (min-width: 1024px) {
+	.herosection {
+		height: 450px !important;
+	}
+
+	.herosection .herosection__content {
+		width: 50% !important;
+	}
+
+	.herosection .herosection__content h5 {
+		font-size: 1.3rem !important;
+	}
+
+	.herosection .herosection__content h1 {
+		font-size: 2rem !important;
+	}
+	.herosection .herosection__content h3 {
+		font-size: 1.5rem !important;
+	}
 }

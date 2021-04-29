@@ -3,6 +3,8 @@ import './Picimage.css';
 
 const Picimages = ({ image }) => {
 
+	console.log(image)
+
 	return (
 		<div className="pxiamges">
 			<div className="container">
